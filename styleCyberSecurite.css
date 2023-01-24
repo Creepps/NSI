@@ -1,0 +1,63 @@
+body {
+    background-image: 
+    url("images/cybersecurite/fondCyberSecu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family:Helvetica;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    text-shadow:#e7f6ff 0 -1px 0,
+    #4de8ff 1px 1px 0,
+    #00b5ff 2px 2px 0,
+    #007ec2 3px 3px 0,
+    #007cb2 4px 4px 0,
+    #00606e 5px 5px 0,
+    #333 5px 5px 10px;color:#4be9ff;
+    margin-top: 80px;
+}
+#homesection{
+    text-align: center;
+    margin-left: 650px;
+    margin-right: 650px;   
+    border: 1px solid #c8ccd1;
+    border-radius: 1rem;
+    background-color: #f8f9fae0;
+    padding: 12px;
+    margin-top: 40px; 
+    font-size: 18px;
+}
+.link{
+    color:rgb(22, 25, 204) ;
+    text-decoration: none;
+    font-weight : bolder;
+    border-bottom: 1px groove none;
+}
+.link:hover{
+    border-bottom: 1px groove black;
+}
+.column {
+    float: right;
+    padding: 40px;
+    width: 20%;
+
+}
+#boxes {
+    display: table;
+    clear: both;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+    text-align: center;
+}
+.imgcyb{
+    width: 70%;
+    border-radius: 1rem;
+    transition-property: width;
+    transition-duration: 2.5s;
+}
+.imgcyb:hover{
+    width: 110%;
+}

@@ -1,0 +1,68 @@
+body {
+     background-image: 
+     url("images/main/Accueil.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+h1 {
+    color:rgb(255, 255, 255);
+    width: 10 px;
+    text-align: center;
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 2px #141414,
+    1px 1px 3px #141414,
+    1px 1px 5px #141414,
+    1px 1px 7px #141414,
+    1px 1px 10px #141414,
+    1px 1px 12px #141414,
+    1px 1px 18px #141414;
+    color:#fff
+}
+.button{
+    text-decoration: none;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #6A5ACD;
+    border-radius: 1rem;
+    border: 2px groove whitesmoke;
+    text-align: center;
+    color:white;
+    display: inline-block;
+    transition-property: background-color,border;
+    transition-duration: 0.5s;
+    text-align: center;
+    margin-top: 15px;
+}
+.button:hover{
+    background-color:#9400D3;
+    border: 2px groove black;
+}
+.styleimg{
+    width: 40%;
+    display: flex;
+    padding: 1em;
+    border: 2px groove black;
+    border-radius:6px ;
+    text-align: center 
+}
+#boxes {
+    display: table;
+    clear: both;
+    padding-left: 182px;
+    margin-top: 130px;
+}
+div {
+    float: left;
+}
+.column {
+    padding: 40px;  
+    width: 20%;
+}
+.styleaffiche{
+    margin-left: 150px;
+    border-radius: 1rem;
+    border: 2px groove rgb(255, 255, 255);
+}

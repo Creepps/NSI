@@ -1,0 +1,34 @@
+02/12/22: En cours 2h
+Commencement des idées pages sources+créations(En groupe)
+
+08/12/22: En cours 2h
+Luc: HTML, CSS/ création des div (page main) +création des pages(aide Anton).
+Alenzo: HTML, CSS/ création des boutons + création et implantation d'image(page main).
+Mattéo: JAVASCRIPT, HTML, CSS/ création du circuit avec le robot qui le suit(page orientation).
+Amaury: HTML, CSS/ création des div (page main).
+Anton: HTML,CSS/ création des 4 pages + leur pages css ajout du texte dans la page d'accueil et mise en couleur de tout les titres.
+
+12/12/22: En cours 2h
+Luc: HTML,CSS/ Commencement remplissage de la page(conférence) + style(image).
+Alenzo: HTML,CSS/ rendu des boutons de la page main(css).
+Mattéo: JAVASCRIPT,HTML,CSS/ finition du programme robot + implation sur la page(Orientation).
+Amaury: HTML,CSS/ ajustement image de fond (main) + code avec alenzo(style du bouton).
+Anton: HTML,CSS/ création de qcm (page) + style, implantation des images sur les pages.
+
+18/12/22: maison 4h
+Luc: CSS,HTML/ création de la transition(survol de la div) dans la page conférence(aide Anton).
+Alenzo: CSS,HTML/ mise en forme de toute la page conférence(div).
+Mattéo: HTML,CSS/ écriture de la page conférence +aide Alenzo.
+Amaury: HTML,CSS/ recherche d'image + implémentation(style) sur la page conférence(+style).
+Anton: HTML,CSS/ mise en forme total de la page(conférence):structure de la page + création de la transition(aide Luc).
+
+27-28/12/22: maison 2h
+Luc,Amaury: HTML,CSS/Création de la page cybersécurité.
+
+29-30/12/22: maison 4h
+Anton,Mattéo: HTML,CSS,JAVASCRIPT/ Création de la page quiz.
+Luc: HTML,CSS/ création de la page orientation.
+Alenzo,Amaury: HTML,CSS/création de la page chaine de fabrication.
+
+31/12/22: maison 1h
+Luc: HTML,CSS/ ajout de la barre de navigation+ style

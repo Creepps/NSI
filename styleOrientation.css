@@ -1,0 +1,81 @@
+#conteneur
+{
+	width: 500px;
+	height: 250px;
+	position: relative;
+	background-color: rgb(133, 133, 133);
+	background-image: url("images/orientation/circuit robot.png");
+    border-radius: 1rem;
+    border:1px groove rgb(95, 95, 95);}
+
+#moveDiv
+{
+	width: 85px;
+	height: 86px;
+	background-image: url('images/orientation/Robot.png');
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: rgb(255, 255, 255);
+	transition: left 5s linear, top 5s linear;
+    border-radius: 1rem;
+    border:1px groove;
+}
+h1 {
+    text-shadow:0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);color:#fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 80px;
+}
+body {
+    background-image: 
+    url("images/orientation/fondorientation.jpg");
+    background-size: 1900 1800;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paragraph{
+    color :rgb(255, 255, 254) ;
+    font-size: 22px;
+    line-height: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.link{
+    color: #d5d828;
+    text-decoration: none;
+    font-weight : bolder;
+    padding: 5px;
+    border-bottom: 1px groove none;
+}
+.link:hover{
+    color:rgb(255, 255, 254) ;
+    
+}
+.maindiv{
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 150px;
+}
+.img{
+    width: 15%;
+    border-radius: 2rem;
+    border: 1px groove wheat;
+    
+}
+.mcqueen{
+    margin: 200px;
+}

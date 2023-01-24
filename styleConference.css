@@ -1,0 +1,72 @@
+body {
+    background-image: 
+    url("images/conference/fondConference.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-shadow:#FFFEC8 0 -1px 0,
+    #ff3a00 1px 1px 0,
+    #c01c01 2px 2px 0,
+    #bf1b01 3px 3px 0,
+    #e90b20 4px 4px 0,
+    #850103 5px 5px 0,
+    #333 5px 5px 10px;color:#FFD100;
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 80px;
+}
+#center{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.link{
+    color: #3366cc;
+    text-decoration: none;
+    font-weight : bolder;
+    border-bottom: 1px groove none;
+}
+.link:hover{
+    color:rgb(238, 235, 235) ;
+}
+.paragraph {
+    color :rgb(238, 235, 235) ;
+    font-size: 22px;
+    line-height: 50px;
+}
+.tr{
+    margin-right: 1300px;
+}/*l'element tr,identity sont pour le changement d'élément de l'explication de l'identité numérique.*/
+.identity {
+    display: none;
+    float: right;
+    text-align: center;
+    font-weight : bolder;
+}
+.tr:hover +.identity{
+    display: block;
+}
+#img{
+    margin-top: 75px;
+    margin-left: 30px;
+    clear: both;
+    display: table;
+}
+.imgDamien{
+    width: 50%;
+    border-radius: 1rem;
+    border: 2px groove rgb(255, 255, 255);
+}
+.imgDamien2{
+    width: 33%;
+    border-radius: 1rem;
+    border: 2px groove rgb(255, 255, 255);
+}
+#imgcolumn{
+    padding: 10px;  
+    width: 40%;
+    float:left ;
+    text-align: center;
+}

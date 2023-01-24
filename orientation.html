@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="icon" href="images/roboticon.png" />
+	<title>Site Forum Numérique | Orientation</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="styleOrientation.css" /> 
+	<link rel="stylesheet" type="text/css" href="styleNav.css"/>
+        <script>document.addEventListener("keyup", function(event) {if (event.code === 'Space') {window.location.href='main.html'} alert("Vous allez être redirigé vers la page principale.");})
+        window.onload=function() {
+	// Les coordonnées de chaque coin du conteneur
+	var topLeft=[0,10];
+	var topRight=[435,10];
+	var bottomLeft=[0,200];
+	var bottomRight=[435,200];
+	
+	// On crée un objet littéral pour stocker nos valeurs
+	var objet=
+	{
+		// Notre div à déplacer
+		'div': document.getElementById('moveDiv'),
+		
+		// La position vers laquelle elle se dirige
+		'position': topRight,
+		
+		// Et une fonction pour la faire bouger !
+		'move': function()
+		{
+			this.div.style.left=this.position[0]+'px';
+			this.div.style.top=this.position[1]+'px';
+		}
+	}
+		
+	var navigatorsProperties=['transitionend','OTransitionEnd','webkitTransitionEnd'];				
+	for(var i in navigatorsProperties)
+	{
+		objet.div.addEventListener(navigatorsProperties[i],function(e)
+		{
+			/*Lorsque la div a fini son déplacement, on lui
+			indique un autre point à atteindre*/
+			switch(objet.position)
+			{
+				case topRight:
+				
+ 					
+					objet.position=bottomRight;
+				break;
+				
+				case bottomRight:
+			
+					objet.position=bottomLeft;
+				break;
+				
+				case bottomLeft:
+					objet.position=topLeft;
+				break;
+				
+				case topLeft:
+					objet.position=topRight;
+				break;
+			}
+			
+			// Et on lui demande de se rendre à ce point !
+			objet.move();
+		},false);
+	}
+	
+	// On lance le déplacement de notre div !
+	objet.move();
+};
+	
+	// On lance le déplacement de notre div !
+	objet.move();
+;
+	</script>
+</head>
+<body>
+	<nav>
+		<ul>
+		    <li><a href="conference.html">Conférence</a></li>
+		    <li><a href="cyberSecurite.html">Cybersécurité</a></li>
+		    <li><a href="orientation.html">Orientation</a></li>
+		    <li><a href="chaineFabrication.html">Chaine de Fabrication</a></li>
+		    <li><a href="quiz.html">Quiz</a></li>
+		</ul>
+	</nav>
+
+	<h1>Orientation</h1>
+	<p class="paragraph">Lors du Salon du Numérique, nous avons rencontré des développeurs web spécialisé dans les applications web. 
+	Les développeurs ont créé une <a class="link" href="https://app.orientoi.fr/#/welcome" title="Site Orientoi">application web</a>  permettant, avec une Intelligence Artificiel et une série de jeux, de 
+	déterminer le métier qui nous correspond le plus (modifié exclusivement pour nous proposer des métier en rapport avec le Numérique).
+	</p>
+	<p class="paragraph">Voici les jeux proposé:</p>
+	<div class="maindiv">
+		<img  src="images/orientation/metier cache.png" alt="Metier Caché | Orientoi" class="img">
+		<img  src="images/orientation/bonne couleur.png" alt="Bonne Couleur | Orientoi" class="img" style="margin-left: 380px;">
+		<img  src="images/orientation/parcours piege.png" alt="Parcours Piégé | Orientoi" class="img" style="float: right;">
+	</div>
+	<p class="paragraph">Le Lycée Marguerite de Flandre était aussi représenté par des élèves de terminale !</p>
+
+	<h1 style="margin-top: 200px;">McQueen</h1>
+	<p class="paragraph">Grâce à un robot McQueen, ils ont pu leurs faire suivent des trajectoire simple, mais également plus complexe !</p>
+	<div class="mcqueen">
+		<img src="images/orientation/mcqueen.jpg" alt="McQueen" class="img" style=" width: 22.5%; border-radius: 2rem;float: right;">
+		<div id="conteneur">
+			<div id="moveDiv"></div> 
+		</div> 
+	</div>
+</body>
+
